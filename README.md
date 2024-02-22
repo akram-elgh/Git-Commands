@@ -137,6 +137,104 @@ git merge <branch-name>
 git merge --abort
 ```
 
--6 What is a commit?
+## Git rebase
 
--7 What is a pull request?
+- Definition: Rebase is the process of moving or combining a sequence of commits to a new base commit.
+
+- Rebase a branch onto the current branch. This is done by running the following command in the terminal.
+
+```bash
+git rebase <branch-name>
+```
+
+- Continue a rebase after resolving conflicts. This is done by running the following command in the terminal.
+
+```bash
+git rebase --continue
+```
+
+- Abort a rebase. This is done by running the following command in the terminal.
+
+```bash
+git rebase --abort
+```
+
+## Git stash
+
+- Definition: Stashing is the process of temporarily storing changes
+
+- Stash changes. This is done by running the following command in the terminal.
+
+```bash
+git stash
+```
+
+- Show the list of stashes. This is done by running the following command in the terminal.
+
+```bash
+git stash list
+```
+
+- Apply a stash. This is done by running the following command in the terminal.
+
+```bash
+git stash apply
+```
+
+- Delete a stash. This is done by running the following command in the terminal.
+
+```bash
+git stash drop
+```
+
+- Delete all stashes. This is done by running the following command in the terminal.
+
+```bash
+git stash clear
+```
+
+## Git remote
+
+- Definition: A remote is a common repository that all team members use to exchange their changes.
+
+- Clone a repository. This is done by running the following command in the terminal.
+
+```bash
+git clone <repository-url>
+```
+
+- Add a remote repository. This is done by running the following command in the terminal.
+
+```bash
+git remote add <remote-name> <repository-url>
+```
+
+- Show the list of remote repositories. This is done by running the following command in the terminal.
+
+```bash
+git remote -v
+```
+
+- Fetch changes from a remote repository. This is done by running the following command in the terminal.
+
+```bash
+git fetch <remote-name>
+```
+
+- Pull changes from a remote repository. This is done by running the following command in the terminal.
+
+```bash
+git pull <remote-name> <branch-name>
+```
+
+- Push changes to a remote repository. This is done by running the following command in the terminal.
+
+```bash
+git push <remote-name> <branch-name>
+```
+
+- Remove a remote repository. This is done by running the following command in the terminal.
+
+```bash
+git remote remove <remote-name>
+```
