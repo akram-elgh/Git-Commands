@@ -84,6 +84,11 @@ git branch <branch-name>
 ```bash
 git checkout <branch-name>
 ```
+- To create a branch and merge at the same time you can do this as a shortcut in terminal.
+
+```bash
+git switch -c <branch-name>
+```
 
 - Rename a branch. This is done by running the following command in the terminal.
 
