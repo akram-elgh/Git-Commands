@@ -38,6 +38,13 @@ sudo apt-get install git
 git init
 ```
 
+- Configure git with your name and email. This is done by running the following command in the terminal.
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "Your Email"
+```
+
 - Showing the status of the repository. This is done by running the following command in the terminal.
 
 ```bash
@@ -215,12 +222,6 @@ git remote add <remote-name> <repository-url>
 git remote -v
 ```
 
-- Fetch changes from a remote repository. This is done by running the following command in the terminal.
-
-```bash
-git fetch <remote-name>
-```
-
 - Pull changes from a remote repository. This is done by running the following command in the terminal.
 
 ```bash
@@ -238,3 +239,12 @@ git push <remote-name> <branch-name>
 ```bash
 git remote remove <remote-name>
 ```
+
+## Learning References
+
+- [Git Documentation](https://git-scm.com/doc)
+- [Learn Git Branching](https://learngitbranching.js.org/)
+
+## Github profile generator
+
+- [Github Profile Generator](https://profilinator.rishav.dev/)
