@@ -216,6 +216,12 @@ git clone <repository-url>
 git remote add <remote-name> <repository-url>
 ```
 
+- Adding fine-grained permissions to a remote repository. This is done by running the following command in the terminal.
+
+```bash
+git remote set-url <remote-name> <https://<token>@github.com/username/repo_name>
+```
+
 - Show the list of remote repositories. This is done by running the following command in the terminal.
 
 ```bash
