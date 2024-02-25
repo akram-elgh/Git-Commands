@@ -84,6 +84,7 @@ git branch <branch-name>
 ```bash
 git checkout <branch-name>
 ```
+
 - To create a branch and merge at the same time you can do this as a shortcut in terminal.
 
 ```bash
@@ -249,6 +250,40 @@ git push <remote-name> <branch-name>
 
 ```bash
 git remote remove <remote-name>
+```
+
+## Git tags
+
+- Definition: A tag is a reference to a specific commit.
+
+- Create a tag. This is done by running the following command in the terminal.
+
+```bash
+git tag <tag-name>
+```
+
+- Show the list of tags. This is done by running the following command in the terminal.
+
+```bash
+git tag
+```
+
+- Delete a tag. This is done by running the following command in the terminal.
+
+```bash
+git tag -d <tag-name>
+```
+
+- Push a tag to a remote repository. This is done by running the following command in the terminal.
+
+```bash
+git push <remote-name> <tag-name>
+```
+
+- Delete a tag from a remote repository. This is done by running the following command in the terminal.
+
+```bash
+git push <remote-name> --delete <tag-name>
 ```
 
 ## Learning References
